@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/icons/eatBurguer.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>EatBurguer - Food</title>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div>
+                <img src="./assets/icons/eatBurguer.png" alt="logo-eatBurguer"class="logo">
+            </div>
+            <nav>
+                <ul id="navToggle">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Menu</a></li>
+                    <li><a href="#">What's New</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </nav>
+            <img src="./assets/icons/menu_20px.png" alt="menu-icon" class="menuIcon" onclick="showMenu()">
+        </div>
+        <div class="links-fixed">
+            <a href="#"><img src="./assets/icons/facebook.png" alt="facebook-icons" class="links-icons"></a>
+            <a href="#"><img src="./assets/icons/instagram.png" alt="instagram-icons" class="links-icons"></a>
+            <a href="#"><img src="./assets/icons/twitter.png" alt="twitter-icons" class="links-icons"></a>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-2">
+                    <h1>It's the best bread <br/>Hmm <span>Hamburguer</span></h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa nulla totam magni repudiandae. Ipsa laudantium totam at adipisci autem! Voluptate animi ipsa omnis beatae hic tempore quia quas blanditiis enim!</p>
+                    <a class="btn-learn">Learn More</a>
+                </div>
+                <div class="col-2">
+                    <img src="./assets/image/burguer.png">
+                </div>
+            </div>
+        </div>
+        <div class="drinks-row">
+            <a href="#"><img src="./assets/icons/drink_1.png" alt="drink-1" class="drinks"></a>
+            <a href="#"><img src="./assets/icons/drink_2.png" alt="drink-2" class="drinks"></a>
+            <a href="#"><img src="./assets/icons/drink_3.png" alt="drink-3" class="drinks"></a>
+        </div>
+    </header>
+
+    <script>
+        var navToggle = document.getElementById("navToggle");
+
+        navToggle.style.maxHeight = "0px";
+
+        function showMenu() {
+            if (navToggle.style.maxHeight == "0px") {
+                navToggle.style.maxHeight = "200px"
+            } else {
+                navToggle.style.maxHeight = "0px"
+            }
+        }
+    </script>
+</body>
+</html>

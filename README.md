@@ -16,6 +16,8 @@ It's a simple landpages, made to learn html5, css3 and javascript.
 
 ***
 ***
+***
+***
 ## 🔨 Tools
 
 - Html5
@@ -24,12 +26,30 @@ It's a simple landpages, made to learn html5, css3 and javascript.
 
 ***
 ***
+***
+***
 ## ❄ How Contribute
 ***
 ***Clone project***
 ***
 $ git clone https://github.com/josuepanzo/eatHalth/
 
+***
+***
+***
+***
+## 🙍‍♂️ Authors
+
+  **Josué António Dias Panzo**
+  ***
+  - My - <a href="https://www.linkedin.com/in/josuepanzo5/" target="_blank">Linkedin</a>
+
+Please follow github
+
+Thanks to visiting me and good coding!
+***
+***
+***
 ***
 ## 🧧 Licenses
 ***
